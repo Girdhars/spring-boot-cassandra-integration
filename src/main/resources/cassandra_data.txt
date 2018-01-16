@@ -1,0 +1,9 @@
+CREATE KEYSPACE customer_keyspace WITH replication = {'class':'SimpleStrategy', 'replication_factor' : 3};
+
+use customer_keyspace;
+
+CREATE TABLE customer(id text PRIMARY KEY, name text, address text);
+
+INSERT INTO customer(id, name, address) values('1','micheal scofield', 'fox river');
+INSERT INTO customer(id, name, address) values('2','dex', 'cuba');
+INSERT INTO customer(id, name, address) values('3','jon snow', 'white wall');

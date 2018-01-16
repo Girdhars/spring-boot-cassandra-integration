@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-boot-cassandra-integration
+  data:
+    cassandra:
+      keyspace-name: customer_keyspace 
+      contact-points: localhost
+      port: 9042
+      schema-action: none
