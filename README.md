@@ -1,1 +1,1 @@
-"# spring-boot-cassandra-integration" 
+spring boot cassandra integration
